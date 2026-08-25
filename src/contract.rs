@@ -91,6 +91,13 @@ impl MiniRedeemContract {
         Self::require_positive(amount)?;
         let redeemer = read_redeemer(&env);
         redeemer.require_auth();
+        // Per-transaction redemption cap: 10% of max supply, minimum 1, maximum 1_000_000,
+        // limiting drain if the redeemer key is compromised.
+        let cap = read_max_supply(&env);
+        let redemption_cap = if cap > 0 { cap / 10.max(1) } else { 1_000_000 };
+        if amount > redemption_cap {
+            return Err(Error::MaxSupplyExceeded);
+        }
         Self::burn(&env, &from, amount)
     }
 
@@ -123,6 +130,7 @@ impl MiniRedeemContract {
         admin.require_auth();
         write_pending_admin(&env, &new_admin);
         bump_instance(&env);
+        events::set_transfer_admin(&env, &admin);
         Ok(())
     }
 
@@ -133,6 +141,7 @@ impl MiniRedeemContract {
         write_admin(&env, &pending);
         clear_pending_admin(&env);
         events::set_admin(&env, &pending);
+        events::accept_admin(&env, &pending);
         bump_instance(&env);
         Ok(())
     }

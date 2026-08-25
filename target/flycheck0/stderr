@@ -1,5 +1,5 @@
-   0.181698800s  INFO prepare_target{force=false package_id=afreum-mini-redeem v0.1.0 (C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem) target="afreum_mini_redeem"}: cargo::core::compiler::fingerprint: fingerprint error for afreum-mini-redeem v0.1.0 (C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem)/Check { test: false }/TargetInner { name_inferred: true, doctest: false, ..: lib_target("afreum_mini_redeem", ["cdylib", "rlib"], "C:\\Users\\mrsur\\Downloads\\afreum-mini-redeem\\afreum-mini-redeem\\src\\lib.rs", Edition2021) }
-   0.181757300s  INFO prepare_target{force=false package_id=afreum-mini-redeem v0.1.0 (C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem) target="afreum_mini_redeem"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem\target\debug\.fingerprint\afreum-mini-redeem-2a8b9c3ebfcf53ac\lib-afreum_mini_redeem`
+   0.178786200s  INFO prepare_target{force=false package_id=afreum-mini-redeem v0.1.0 (C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem) target="afreum_mini_redeem"}: cargo::core::compiler::fingerprint: fingerprint error for afreum-mini-redeem v0.1.0 (C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem)/Check { test: false }/TargetInner { name_inferred: true, doctest: false, ..: lib_target("afreum_mini_redeem", ["cdylib", "rlib"], "C:\\Users\\mrsur\\Downloads\\afreum-mini-redeem\\afreum-mini-redeem\\src\\lib.rs", Edition2021) }
+   0.178843100s  INFO prepare_target{force=false package_id=afreum-mini-redeem v0.1.0 (C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem) target="afreum_mini_redeem"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem\target\debug\.fingerprint\afreum-mini-redeem-2a8b9c3ebfcf53ac\lib-afreum_mini_redeem`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -26,8 +26,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.191351000s  INFO prepare_target{force=false package_id=soroban-sdk v21.7.7 target="soroban_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-sdk v21.7.7/Check { test: false }/TargetInner { doctest: false, ..: lib_target("soroban_sdk", ["lib"], "C:\\Users\\mrsur\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-sdk-21.7.7\\src\\lib.rs", Edition2021) }
-   0.191377500s  INFO prepare_target{force=false package_id=soroban-sdk v21.7.7 target="soroban_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem\target\debug\.fingerprint\soroban-sdk-459e78866a07ab4a\lib-soroban_sdk`
+   0.187384000s  INFO prepare_target{force=false package_id=soroban-sdk v21.7.7 target="soroban_sdk"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-sdk v21.7.7/Check { test: false }/TargetInner { doctest: false, ..: lib_target("soroban_sdk", ["lib"], "C:\\Users\\mrsur\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-sdk-21.7.7\\src\\lib.rs", Edition2021) }
+   0.187409200s  INFO prepare_target{force=false package_id=soroban-sdk v21.7.7 target="soroban_sdk"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem\target\debug\.fingerprint\soroban-sdk-459e78866a07ab4a\lib-soroban_sdk`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -55,8 +55,8 @@ Stack backtrace:
   19: git_midx_writer_dump
   20: BaseThreadInitThunk
   21: RtlUserThreadStart
-   0.209535900s  INFO prepare_target{force=false package_id=soroban-env-host v21.2.1 target="soroban_env_host"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-host v21.2.1/Check { test: false }/TargetInner { ..: lib_target("soroban_env_host", ["lib"], "C:\\Users\\mrsur\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-host-21.2.1\\src\\lib.rs", Edition2021) }
-   0.209562300s  INFO prepare_target{force=false package_id=soroban-env-host v21.2.1 target="soroban_env_host"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem\target\debug\.fingerprint\soroban-env-host-453b4ac1001abaeb\lib-soroban_env_host`
+   0.203130100s  INFO prepare_target{force=false package_id=soroban-env-host v21.2.1 target="soroban_env_host"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-env-host v21.2.1/Check { test: false }/TargetInner { ..: lib_target("soroban_env_host", ["lib"], "C:\\Users\\mrsur\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-env-host-21.2.1\\src\\lib.rs", Edition2021) }
+   0.203151800s  INFO prepare_target{force=false package_id=soroban-env-host v21.2.1 target="soroban_env_host"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem\target\debug\.fingerprint\soroban-env-host-453b4ac1001abaeb\lib-soroban_env_host`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -85,8 +85,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.232963000s  INFO prepare_target{force=false package_id=soroban-ledger-snapshot v21.7.7 target="soroban_ledger_snapshot"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-ledger-snapshot v21.7.7/Check { test: false }/TargetInner { ..: lib_target("soroban_ledger_snapshot", ["lib"], "C:\\Users\\mrsur\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-ledger-snapshot-21.7.7\\src\\lib.rs", Edition2021) }
-   0.232990600s  INFO prepare_target{force=false package_id=soroban-ledger-snapshot v21.7.7 target="soroban_ledger_snapshot"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem\target\debug\.fingerprint\soroban-ledger-snapshot-390843021163bb4f\lib-soroban_ledger_snapshot`
+   0.229195000s  INFO prepare_target{force=false package_id=soroban-ledger-snapshot v21.7.7 target="soroban_ledger_snapshot"}: cargo::core::compiler::fingerprint: fingerprint error for soroban-ledger-snapshot v21.7.7/Check { test: false }/TargetInner { ..: lib_target("soroban_ledger_snapshot", ["lib"], "C:\\Users\\mrsur\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\soroban-ledger-snapshot-21.7.7\\src\\lib.rs", Edition2021) }
+   0.229228900s  INFO prepare_target{force=false package_id=soroban-ledger-snapshot v21.7.7 target="soroban_ledger_snapshot"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem\target\debug\.fingerprint\soroban-ledger-snapshot-390843021163bb4f\lib-soroban_ledger_snapshot`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -115,8 +115,8 @@ Stack backtrace:
   20: git_midx_writer_dump
   21: BaseThreadInitThunk
   22: RtlUserThreadStart
-   0.241508500s  INFO prepare_target{force=false package_id=afreum-mini-redeem v0.1.0 (C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem) target="afreum_mini_redeem"}: cargo::core::compiler::fingerprint: fingerprint error for afreum-mini-redeem v0.1.0 (C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem)/Check { test: true }/TargetInner { name_inferred: true, doctest: false, ..: lib_target("afreum_mini_redeem", ["cdylib", "rlib"], "C:\\Users\\mrsur\\Downloads\\afreum-mini-redeem\\afreum-mini-redeem\\src\\lib.rs", Edition2021) }
-   0.241540300s  INFO prepare_target{force=false package_id=afreum-mini-redeem v0.1.0 (C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem) target="afreum_mini_redeem"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem\target\debug\.fingerprint\afreum-mini-redeem-d10fb7b32cf55fa2\test-lib-afreum_mini_redeem`
+   0.238892700s  INFO prepare_target{force=false package_id=afreum-mini-redeem v0.1.0 (C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem) target="afreum_mini_redeem"}: cargo::core::compiler::fingerprint: fingerprint error for afreum-mini-redeem v0.1.0 (C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem)/Check { test: true }/TargetInner { name_inferred: true, doctest: false, ..: lib_target("afreum_mini_redeem", ["cdylib", "rlib"], "C:\\Users\\mrsur\\Downloads\\afreum-mini-redeem\\afreum-mini-redeem\\src\\lib.rs", Edition2021) }
+   0.238923200s  INFO prepare_target{force=false package_id=afreum-mini-redeem v0.1.0 (C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem) target="afreum_mini_redeem"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\mrsur\Downloads\afreum-mini-redeem\afreum-mini-redeem\target\debug\.fingerprint\afreum-mini-redeem-d10fb7b32cf55fa2\test-lib-afreum_mini_redeem`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
