@@ -5,6 +5,7 @@ edition = "2021"
 description = "Soroban smart contract to mint and redeem Afreum fiat-backed tokens on Stellar."
 license = "Apache-2.0"
 repository = "https://github.com/AfreumToolkits/Mini_Redeem_-Sorobon"
+authors = ["afreumtoolkit <afreumtoolkit@users.noreply.github.com>", "afreum <afreum@users.noreply.github.com>", "suruj404 <thedevsurujx@gmail.com>"]
 
 [lib]
 crate-type = ["cdylib", "rlib"]
