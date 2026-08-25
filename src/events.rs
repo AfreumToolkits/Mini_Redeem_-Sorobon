@@ -20,6 +20,16 @@ pub fn set_redeemer(env: &Env, new_redeemer: &Address) {
     env.events().publish(topics, new_redeemer);
 }
 
+pub fn set_transfer_admin(env: &Env, new_admin: &Address) {
+    let topics = (symbol_short!("transfer_admin"),);
+    env.events().publish(topics, new_admin);
+}
+
+pub fn accept_admin(env: &Env, new_admin: &Address) {
+    let topics = (symbol_short!("accept_admin"),);
+    env.events().publish(topics, new_admin);
+}
+
 pub fn paused(env: &Env, is_paused: bool) {
     let topics = (symbol_short!("paused"),);
     env.events().publish(topics, is_paused);
